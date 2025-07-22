@@ -12,9 +12,12 @@ To determine the Price Elasticity of Demand (PED) we use the following formula o
 $$E_d = \frac{\%\ \text{change in quantity demanded}}{\%\ \text{change in price}} = \frac{\Delta Q / Q}{\Delta P / P}
 $$ 
 <br>
+<br>
 This formula is the theoretical application of Elasticity, but for this particular analysis we take it a step further by using the Log-Log Linear Regression to model Elasticity of a product.
 
 $$\ln(Q) = \beta_0 + \beta_1 \ln(P) + \varepsilon$$
+<br>
+<br>
 Here $\ln(Q)$ is the log Quantitiy of all demand, $\beta_0$ is the intercept, $\beta_1$ is the coefficient for log Price, and $\varepsilon$ is the error term.
 <br>
 <br>
